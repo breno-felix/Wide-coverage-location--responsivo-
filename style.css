@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  margin: 47px 0 163px 42px;
+}
+
+.nav-link {
+  margin-right: 32px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.875px;
+  color: #17233d;
+}
+
+#products {
+  margin-right: 36px;
+}
+
+nav button {
+  background: #6fbf44;
+  border: 1px solid #4cb538;
+  border-radius: 6px;
+  width: 124px;
+  height: 51px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+section {
+  display: inline-block;
+  margin-right: 84.82px;
+}
+
+section h1 {
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 82px;
+  letter-spacing: 0.596154px;
+  color: #161a49;
+  width: 582px;
+}
+
+section p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: 0.5px;
+  color: #4b505a;
+  width: 493px;
+  margin: 47px 0px 55px 0px;
+}
+
+section a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 1px;
+  color: #6fbf44;
+}
+
+#logo-img {
+  width: 595.18px;
+  margin-left: 121px;
+}
+
+@media screen and (max-width: 920px) {
+  nav a {
+    display: none;
+  }
+
+  nav {
+    width: 100vw;
+    margin: 5% auto 10% 72%;
+  }
+
+  nav button {
+    width: 91px;
+    height: 31px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  #logo-img {
+    margin-left: 0;
+    max-width: 90%;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-logo-img {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+    order: 2;
+  }
+
+  .container-text {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+    order: 1;
+  }
+
+  section h1 {
+    font-size: 30px;
+    line-height: 30px;
+    width: 278px;
+    margin: 0 auto;
+  }
+
+  section p {
+    width: 304px;
+    margin: 29px auto 26px auto;
+  }
+
+  section a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6fbf44;
+    margin-bottom: 8%;
+  }
+}
